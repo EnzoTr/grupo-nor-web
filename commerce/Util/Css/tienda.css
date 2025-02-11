@@ -1,0 +1,73 @@
+/* tienda.css */
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+/* Estilo para los elementos de la barra de navegación */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Estilo para el logo de la empresa */
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Estilo para el campo de búsqueda */
+.navbar .search-container {
+    float: right;
+}
+
+.navbar .search-container input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.navbar .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para el select de ordenamiento */
+#sortSelect {
+    width: 200px;
+    margin: 20px auto;
+}
+
+/* Estilo para los productos */
+#productos .card {
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Estilo para el botón de cargar más productos */
+#loadMoreButton {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
